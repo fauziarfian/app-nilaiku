@@ -1,0 +1,355 @@
+@font-face {
+    font-family: "raleway";
+    src: url('font/Raleway-Regular.ttf');
+ }
+ html , body {
+     max-width: 100%;
+     overflow-x: hidden;
+     margin: 0;
+ }
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-top: -10px;
+    position:fixed;
+    border: 2px #eeeeee solid;
+}
+.utama {
+    width: 100%;
+    height: 330px;
+    background-color: #eeecec;
+    font-family: raleway;
+    font-size: 29px;
+    color: #666666;
+}
+.logo {
+    width: 180px;
+    height: 90px;
+    margin-top: -15px;
+}
+#backupgratis {
+    color: #15669a;
+    font-size: 24px;
+    margin-top: -20px;
+}
+#daftar {
+    background-color: #15669a;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-family: raleway;
+}
+#utamatext {
+    margin-top: 70px;
+}
+.fitur {
+    width: 100%;
+    height: 280px;
+    background-color: #15669a;
+}
+#allp {
+    width: 200px;
+    height: 180px;
+    border: 2px white solid;
+    margin-top: 20px;
+}
+#nlc {
+    width: 200px;
+    height: 180px;
+    border: 2px white solid;
+}
+.daftar {
+    width: 100%;
+    height: 750px;
+    background-color: #15669a;
+    font-family: raleway;
+    font-size: 24px;
+    color: white;
+}
+.daftar1 {
+    width: 50%;
+    height: 700px;
+    background-color: white;
+    font-family: raleway;
+    font-size: 24px;
+    color: #363636;
+    border-top: 1px white solid;
+}
+#tek {
+    width: 95%;
+}
+#table-daftar {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #535353;
+}
+.daftar2 {
+    width: 50%;
+    height: 700px;
+    background-color: #1884ed;
+    font-family: raleway;
+    font-size: 24px;
+    color: #3f3f40;
+    border-top: 1px #0e63b8 solid;
+    margin-left: 50%;
+    margin-top: -702px;
+}
+
+
+.tentang {
+    width: 100%;
+    height: 700px;
+    background-color: #15669a;
+    font-family: raleway;
+    font-size: 24px;
+    color: white;
+}
+.tentang1 {
+    width: 50%;
+    height: 610px;
+    background-color: white;
+    font-family: raleway;
+    color: #1c81c4;
+    border-top: 2px #eeecec solid;
+    text-align: justify;
+}
+.tentang1 p{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+#tentang-logo {
+    width: 180px;
+    margin-left: 15px;
+    margin-top: 60px;
+}
+.tentang2 {
+    width: 50%;
+    height: 610px;
+    background-color: white;
+    font-family: raleway;
+    font-size: 24px;
+    color: #1c81c4;
+    border-top: 2px #eeecec solid;
+    margin-left: 50%;
+    margin-top: -612px;
+}
+#tentang-allp {
+    width: 120px;
+    margin-left: 60px;
+}
+#tentang-nlc {
+    width: 124px;
+    margin-top: -88px;
+}
+#lg1 {
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+#text {
+    
+    width: 60%;
+    height: 25px;
+    border-radius: 0px;
+    border: none;
+    font-family: raleway;
+    font-size: 14px;
+    background-color: #eeeeee;
+    color:#3f3f40;
+}
+#textarea {
+    width: 60%;
+    height: 70px;
+    font-family: raleway;
+    border: none;
+    background-color: #eeeeee;
+    font-size: 14px;
+    color: #3f3f40;
+}
+#submit {
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: raleway;
+}
+/** input file **/
+.file-input {
+	display: inline-block;
+	text-align: left;
+	background: #fff;
+	padding: 10px;
+	width: 80%;
+	position: relative;
+	border-radius: 3px;
+}
+ 
+.file-input > [type='file'] {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+ 
+.file-input > .button {
+	background: #eee none repeat scroll 0 0;
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 15px;
+	padding: 10px 25px;
+}
+ 
+.file-input:hover > .button {
+	background: dodgerblue;
+	color: white;
+}
+ 
+.file-input > .label {
+	color: #333;
+	white-space: nowrap;
+	opacity: .3;
+}
+ 
+.file-input.-chosen > .label {
+ 	opacity: 1;
+}
+/**end input file**/
+
+@media only screen and (max-width: 700px) {
+    .utama {
+        width: 100%;
+        height: 330px;
+        background-color: #eeecec;
+        font-family: raleway;
+        font-size: 20px;
+        color: #666666;
+    }
+    #backupgratis {
+        color: #15669a;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .utama {
+        width: 100%;
+        height: 300px;
+        background-color: #eeecec;
+        font-family: raleway;
+        color: #666666;
+    }
+    .fitur {
+        width: 100%;
+        height: 280px;
+        background-color: #15669a;
+    }
+    .daftar {
+        font-size: 17px;
+    }
+    .tentang{
+        font-size: 17px;
+    }
+    .daftar1 {
+        width: 100%;
+        height: 700px;
+        background-color: white;
+        font-family: raleway;
+        font-size: 24px;
+        color: #363636;
+        border-top: 4px white solid;
+    }
+    .daftar2 {
+        display: none;
+    }
+    #table-daftar {
+        color: #3f3f40;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    #lg1 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .utama {
+        width: 100%;
+        height: 330px;
+        background-color: #eeecec;
+        font-family: raleway;
+        font-size: 18px;
+        color: #666666;
+    }
+    #backupgratis {
+        color: #15669a;
+        font-size: 15px;
+        margin-top: -16px;
+    }
+    .utama {
+        width: 100%;
+        height: 300px;
+        background-color: #eeecec;
+        font-family: raleway;
+        color: #666666;
+    }
+    .fitur {
+        width: 100%;
+        height: 210px;
+        background-color: #15669a;
+    }
+    
+    #allp {
+        width: 140px;
+        height: 110px;
+        border: 2px white solid;
+        margin-top: 15px;
+    }
+    #nlc {
+        width: 140px;
+        height: 110px;
+        border: 2px white solid;
+    }
+    .daftar {
+        font-size: 17px;
+    }
+    .tentang{
+        font-size: 17px;
+    }
+    .daftar1 {
+        width: 100%;
+        height: 700px;
+        background-color: white;
+        font-family: raleway;
+        font-size: 24px;
+        color: #363636;
+        border-top: 4px white solid;
+    }
+    #tek {
+        width: 87%;
+    }
+    #table-daftar {
+        font-size: 11px;
+        margin-left: 15px;
+        margin-top:40px;
+    }
+    #text {
+        width: 90%;
+    }
+    #textarea {
+        width: 90%;
+    }
+    .file-input {
+        width: 30%;
+    }
+    .daftar2 {
+        display: none;
+    }
+    
+    #lg1 {
+        display: none;
+    }
+}
